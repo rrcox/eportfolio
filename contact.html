@@ -42,6 +42,7 @@
           with you to make those ideas a reality.            
         </div>      
        
+        <!-- Contact Info -->
         <div class="contact-info">
           <p>Phone</p>
           <p>800.555.1212</p>
@@ -56,10 +57,47 @@
           <p>Twitter</p>
           <p>#syntheticSoftware</p>
         </div>
-        
         <div class="contact-info-img">
           <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Ftypewriter-small.jpg?v=1636862331436" alt="antique typewriter">
         </div>
+        
+        <!-- Contact Form -->
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+         <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email">
+          </li>
+          <li>
+            <label for="subject">Subject:</label>
+            <input type="email" id="mail" name="user_email">
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+         </ul>
+        </form>
+        <script>
+          const feedbackElement = document.getElementById('feedback');
+          const formElement = document.forms[0];
+          formElement.addEventListener('submit', function(e) {
+              e.preventDefault();
+              feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+              feedbackElement.style.display = "block";
+              document.body.classList.toggle('moveDown');
+          });
+        </script>
+
+        
       </main>
 
       <!- Footer -->
@@ -69,8 +107,7 @@
           <a href="https://www.facebook.com" target="_blank"><img src="https://cdn.glitch.com/aa03d9ca-a7ed-4043-9f28-16a2dc6af9bf%2Ffacebook.png?1633302920971" alt="facebook icon"></a>
           <a href="https://twitter.com" target="_blank"><img src="https://cdn.glitch.com/aa03d9ca-a7ed-4043-9f28-16a2dc6af9bf%2Ftwitter.png?1633302920971" alt="twitter icon"></a>                
         </div>
-      </footer>
-    
+      </footer>    
     </div>
   </body>
 </html>
