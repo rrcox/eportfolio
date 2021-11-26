@@ -23,12 +23,14 @@ h1, h2, h3, h4, h5, h6 {
 ----------------------------------------------------------------*/
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
-  align-items: center;
   margin-bottom: 10px;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+  align-items: center;  
+}
 .logo-img {
   grid-column: 1/2;
   background-color: white;
@@ -37,13 +39,10 @@ header {
 .logo-text {
   grid-column: 2/3;
 }
-.potfolio-link {
+.portfolio-link {
   grid-column 4/5;
+  
 }
-nav ul {
-  grid-column: 3/4;
-  list-style-type: none;
-  margin: 0;
-  display: grid;
-  grid-column: 2/3;
+.contact-link {
+  grid-column 5/6;
 }
