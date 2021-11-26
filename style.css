@@ -88,5 +88,10 @@ main {
 
 .definition {
   grid-column: 2/3;
+  font-family: Playfair;
+}
+
+.word {
+  font-size: 2em
 }
 
