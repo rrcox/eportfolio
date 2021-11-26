@@ -28,21 +28,28 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+  grid-template-columns: 70px 1fr 1fr 1fr 1fr;  
   align-items: center;  
 }
+
+a:link, a:visited {
+  text-decoration: none;    
+}
+
 .logo-img {
   grid-column: 1/2;
-  background-color: white;
   padding: 0.6em;
 }
+
 .logo-text {
   grid-column: 2/3;
 }
+
 .portfolio-link {
   grid-column 4/5;
-  
+  justify-self: right;  
 }
+
 .contact-link {
   grid-column 5/6;
 }
