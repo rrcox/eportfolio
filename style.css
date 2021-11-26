@@ -76,7 +76,7 @@ main {
 }
 
 .mission-img {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .mission-text {
@@ -84,5 +84,9 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.definition {
+  grid-column: 2/3;
 }
 
