@@ -86,7 +86,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.definition {
+.definition-block {
   grid-column: 2/3;
   font-family: Playfair;
   border: 1px solid black
@@ -98,7 +98,13 @@ main {
 
 .word-type {
   font-size: 2.5em;
+  font-style: italic;
   color: #304C89;
   margin-left: 10px;
 }
 
+.pronunciation: {
+  font-size: 1.5em;
+  color: red;
+    
+}
