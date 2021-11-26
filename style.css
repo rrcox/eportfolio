@@ -2,28 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:400,700');
 
 body {
+  font-family: Raleway, Arial, sans-serif;
   background-color: white;
-  font-family: "Raleway", serif;
-  padding: 5px 25px;
-  font-size: 18px;
-  margin: 0;
-}
-
-h1 {
-  font-family: "Playfair", serif;
-  font-size: 32px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body {
-  font-family: Roboto, Arial, sans-serif;
   padding-right: 20px;
   padding-left: 20px;
 }
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:400,700');
+h1, h2, h3, h4, h5, h6 {
+  font-family: Playfair, Helvetica, serif;
+  font-size: 2em;
+  color: #FFBA08;
+  border-bottom: 3px solid;
+  padding-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* ---------------------------------------------------------------
+ Common Header 
+----------------------------------------------------------------*/
+
+header {
+  display: grid;
+  grid-template-columns: 120px auto;  
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-box {
+  background-color: white;
+  border-radius: 50px 50px 0 0;   
+  padding: 0.6em;
+  border: 1px solid #FFBA08;
+}
