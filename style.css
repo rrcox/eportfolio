@@ -68,3 +68,10 @@ a:link, a:visited {
   justify-self: right;
   color: #212529;
 }
+
+main {
+  display: grid;
+}
+.mission-img {
+  opacity: 0.5;
+}
