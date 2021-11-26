@@ -71,7 +71,21 @@ a:link, a:visited {
 
 main {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+.mission {
+  grid-column: 1/2;
+}
+
 .mission-img {
-  opacity: 0.5;
+  opacity: 0.4;
 }
+
+.mission-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
