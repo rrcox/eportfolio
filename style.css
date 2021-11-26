@@ -29,7 +29,7 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: 70px 110px 150px 1fr 100px 100px;  
+  grid-template-columns: 70px 110px 150px  1fr 100px;  
   align-items: center;  
 }
 
@@ -43,26 +43,28 @@ a:link, a:visited {
 }
 
 .logo-text-synthetic {
+  grid-column: 2/3;
   font-weight: bold;
   font-size: 1.5em;
   justify-self: right;
   color: gray;
-  grid-column: 2/3;
 }
 
 .logo-text-software {
+  grid-column: 3/4;
   font-weight: bold;
   font-size: 1.5em;
-  color: black;
-  grid-column: 3/4;
+  color: #212529;
 }
 
 .portfolio-link {
   grid-column 5/6;
-  justify-self: right;  
+  justify-self: right;
+  color: #212529;
 }
 
 .contact-link {
   grid-column -1/-2;
-  justify-self: right; 
+  justify-self: right;
+  color: #212529;
 }
