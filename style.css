@@ -51,7 +51,7 @@ a:link, a:visited {
 
 .portfolio-link {
   grid-column 4/5;
-  justify-self: center;
+  justify-self: right;
   color: #212529;
 }
 
@@ -91,6 +91,8 @@ main {
   grid-column: 2/3;
   font-family: Playfair;
   border: 1px dashed black;
+  align-self: center;
+  margin: 150px;
 }
 
 .word {
@@ -107,7 +109,6 @@ main {
 .pronunciation: {
   font-size: 1.5em;
   color: red;
-    
 }
 
 .definition: {
@@ -132,4 +133,14 @@ main {
   grid-column: 2/3;
   grid-row: 2/3;    
   justify-self: center;
+  opacity: 0.9;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1rf 1fr 1fr;
+}
+
+social {
+  grid-column: 3/4;
 }
