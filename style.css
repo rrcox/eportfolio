@@ -90,7 +90,7 @@ main {
 .definition-block {
   grid-column: 2/3;
   font-family: Playfair;
-  border: 1px solid black
+  border: 1px dashed black;
 }
 
 .word {
@@ -113,4 +113,17 @@ main {
 .definition: {
   font-size: 1.5em;
   color: red;    
+}
+
+.what-definition {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: center;
+  border: 1px dashed black;
+  margin: 50px;
+}
+
+.what-img {
+  grid-column: 2/3;
+  grid-row: 2/3;    
 }
