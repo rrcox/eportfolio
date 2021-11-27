@@ -159,6 +159,7 @@ main {
 /* ---------------------------------------------------------------
  Common footer
 ----------------------------------------------------------------*/
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -185,7 +186,7 @@ footer {
  Media Queries
 ----------------------------------------------------------------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   main {
     display: block;
   }
