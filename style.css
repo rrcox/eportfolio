@@ -70,6 +70,10 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
+/* ---------------------------------------------------------------
+ Mission statement 
+----------------------------------------------------------------*/
+
 .mission {
   grid-column: 1/2;
   position: relative;
@@ -87,10 +91,15 @@ main {
   transform: translate(-50%, -50%);
 }
 
+/* ---------------------------------------------------------------
+ Word definition
+----------------------------------------------------------------*/
+
 .definition-block {
   grid-column: 2/3;
   font-family: Playfair;
-  border: 1px dashed black;
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529;
   align-self: center;
   margin: 150px;
 }
@@ -106,15 +115,21 @@ main {
   margin-left: 10px;
 }
 
-.pronunciation: {
-  font-size: 1.5em;
-  color: red;
+.pronunciation {
+  font-family: Raleway;
+  font-size: 2em;
+  color: #304C89;
 }
 
-.definition: {
+.definition {
+  font-family: Raleway;
   font-size: 1.5em;
-  color: red;    
+  color: #212529;    
 }
+
+/* ---------------------------------------------------------------
+ What we do
+----------------------------------------------------------------*/
 
 .what-definition {
   grid-column: 1/2;
@@ -136,6 +151,9 @@ main {
   opacity: 0.9;
 }
 
+/* ---------------------------------------------------------------
+ Common footer
+----------------------------------------------------------------*/
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
