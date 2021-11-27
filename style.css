@@ -146,10 +146,13 @@ main {
   margin: 100px;
 }
 
-.what-img {
+.what-block {
   grid-column: 2/3;
   grid-row: 2/3;    
-  justify-self: center;
+  text-align: center;
+}
+
+.what-img {
   opacity: 0.9;
 }
 
@@ -185,6 +188,5 @@ footer {
 @media screen and (max-width: 1200px) {
   main {
     display: block;
-    align-items: center;
   }
 }
