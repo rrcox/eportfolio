@@ -75,7 +75,6 @@ main {
 
 .mission {
   grid-column: 1/2;
-  position: relative;
   text-align: center;
 }
 
