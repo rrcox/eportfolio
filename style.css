@@ -139,9 +139,19 @@ main {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-social {
-  grid-column: 3/4;
+  align-items: center;
   justify-items: end;
 }
+
+.social {
+  grid-column: 3/4;  
+}
+
+.site-plan {
+  justify-self: center;
+}
+
+.copyright {
+  justify-self: start;
+}
+
