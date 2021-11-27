@@ -84,10 +84,10 @@ main {
 
 .mission-text {
   font-family: Raleway, san-serif;
-  position: absolute;
+/*   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 /* ---------------------------------------------------------------
