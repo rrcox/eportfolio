@@ -25,7 +25,8 @@ nav {
 }
 
 a:link, a:visited {
-  text-decoration: none;    
+  text-decoration: none;
+  color: #212529;
 }
 
 .logo-img {
@@ -38,7 +39,7 @@ a:link, a:visited {
   font-weight: bold;
   font-size: 1.5em;
   justify-self: end;
-  text-color: gray;
+  color: gray;
 }
 
 .logo-text-software {
@@ -67,6 +68,7 @@ a:link, a:visited {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 /* ---------------------------------------------------------------
@@ -76,6 +78,7 @@ main {
 .mission {
   grid-column: 1/2;
   text-align: center;
+  position: relative;
 }
 
 .mission-img {
@@ -84,10 +87,10 @@ main {
 
 .mission-text {
   font-family: Raleway, san-serif;
-/*   position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 /* ---------------------------------------------------------------
@@ -159,6 +162,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: end;
+  margin-top: 50px;
 }
 
 .social {
