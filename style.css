@@ -38,7 +38,7 @@ a:link, a:visited {
   grid-column: 2/3;
   font-weight: bold;
   font-size: 1.5em;
-  justify-self: right;
+  justify-self: end;
   text-color: gray;
 }
 
@@ -51,7 +51,7 @@ a:link, a:visited {
 
 .portfolio-link {
   grid-column 4/5;
-  justify-self: right;
+  justify-self: end;
   color: #212529;
 }
 
@@ -138,9 +138,10 @@ main {
 
 footer {
   display: grid;
-  grid-template-columns: 1rf 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 social {
   grid-column: 3/4;
+  justify-items: end;
 }
