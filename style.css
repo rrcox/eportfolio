@@ -16,6 +16,8 @@ h1 {
 
 header {
   margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 nav {
@@ -26,7 +28,7 @@ nav {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #212529;
+  color: #648DE5;
 }
 
 .logo-img {
@@ -39,7 +41,6 @@ a:link, a:visited {
   font-weight: bold;
   font-size: 1.5em;
   justify-self: end;
-  color: gray;
 }
 
 .logo-text-software {
@@ -161,6 +162,8 @@ footer {
   align-items: center;
   justify-items: end;
   margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .social {
@@ -175,3 +178,13 @@ footer {
   justify-self: start;
 }
 
+/* ---------------------------------------------------------------
+ Media Queries
+----------------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  main {
+    display: block;
+    align-items: center;
+  }
+}
