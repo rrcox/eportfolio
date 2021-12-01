@@ -3,8 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Synthetic Software Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Card</title>
+    <style>
+      img {
+        max-width: 100%;
+      }
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #CCC;
+        border-radius: 3px;
+        background-color: white;
+        overflow: hidden;
+        font-family: Helvetica;
+      }
+    </style>
   </head>
   <body>
     <article class="card">
@@ -12,11 +24,11 @@
       <p>
         This is a wider card with supporting text below as a a natural lead-in to additional content. This content is a little bit longer.
       </p>
+      <footer>
+        <button class="viewButton"type="button">View</button>
+        <button class="editButton"type="button">Edit</button>
+        <span>9 mins</span>
+      </footer>
     </article>
-    <footer>
-      <button class="viewButton"type="button">View</button>
-      <button class="editButton"type="button">Edit</button>
-      <span>time</span>
-    </footer>
   </body>
 </html>
