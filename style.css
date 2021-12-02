@@ -204,10 +204,13 @@ footer {
   margin: 30px;
 }
 
-/* .portfolio-img {
+.portfolio-img {
   opacity: 0.5;
-  opacity: 1;  
-} */
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; 
+}
 
 /* .portfolio-text {
   font-size: 5em;
