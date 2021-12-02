@@ -205,17 +205,17 @@ footer {
 }
 
 .portfolio-img {
-  opacity: 0.5;
-  
+/*   opacity: 0.5; */
+  opacity: 1;  
 }
 
-.portfolio-text {
+/* .portfolio-text {
   font-size: 5em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 /* ---------------------------------------------------------------
  Portfolio list
