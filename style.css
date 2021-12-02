@@ -207,18 +207,19 @@ footer {
 .portfolio-img {
   opacity: 0.4;
   width: 1400px; /* width of container */
-    height: 300px; /* height of container */
-    object-fit: cover;
-    object-position: 20% 10%; 
+  height: 300px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%; 
 }
 
-/* .portfolio-text {
+.portfolio-text {
   font-size: 5em;
+  color: white;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 
 /* ---------------------------------------------------------------
  Portfolio list
