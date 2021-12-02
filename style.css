@@ -329,8 +329,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-left: 70px;
-  padding-right: 50px;
+  margin-left: 10px;
 }
 
 /* ---------------------------------------------------------------
