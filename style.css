@@ -265,6 +265,7 @@ footer {
 .portfolio-item-2-text {
   grid-column: 2/3;
   grid-row: 4/5;
+  padding-right: 80px;
 }
 
 .portfolio-item-3-img {
@@ -278,6 +279,7 @@ footer {
 .portfolio-item-3-text {
   grid-column: 2/3;
   grid-row: 6/7;
+  padding-right: 80px;
 }
 
 .portfolio-item-4-img {
@@ -291,6 +293,8 @@ footer {
 .portfolio-item-4-text {
   grid-column: 2/3;
   grid-row: 8/9;
+  padding-right: 80px;
+  margin-bottom: 50px;
 }
 
 .portfolio-item-5-img {
@@ -298,18 +302,12 @@ footer {
   grid-row: 9/10;
 }
 
-.call-to-action {
-  grid-column: 1/3;
-  justify-self: center;
-}
-
 /* ---------------------------------------------------------------
  Call to action
 ----------------------------------------------------------------*/
 
 .call-to-action {
-  grid-column: 1/3;
-  
+  grid-column: 1/3;  
   text-align: center;
   position: relative;
   margin: 30px;
@@ -317,15 +315,22 @@ footer {
 
 .call-to-action-img {
   opacity: 0.5;
+  width: 500px; /* width of container */
+  height: 500px; /* height of container */
+  object-fit: cover;
+  object-position: 0% 75%; 
   
 }
 
 .call-to-action-text {
+  width: 200
   font-size: 2em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-left: 70px;
+  padding-right: 50px;
 }
 
 /* ---------------------------------------------------------------
