@@ -216,7 +216,7 @@ footer {
   font-size: 5em;
   color: black;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -235,6 +235,7 @@ footer {
   grid-template-columns: 75px 1fr;
 /*   grid-template-rows: auto; */
   align-items: center;
+  grid-gap: 10px;
 }
 
 .portfolio-item-1-img {
@@ -244,10 +245,13 @@ footer {
 .portfolio-item-1-title {
   grid-column: 2/3;
   grid-row: 1/2;
+  font-size: 1.5em;
 }
 .portfolio-item-1-text {
   grid-column: 2/3;
   grid-row: 2/3;
+  line-height: 1.6;
+  padding-right: 80px;
 }
 
 .portfolio-item-2-img {
