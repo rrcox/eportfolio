@@ -50,12 +50,12 @@ a:link, a:visited {
 }
 
 .portfolio-link {
-  grid-column 4/5;
+  grid-column: 4/5;
   justify-self: end;
 }
 
 .contact-link {
-  grid-column 5/6;
+  grid-column: 5/6;
   justify-self: center;
   color: #212529;
 }
