@@ -201,7 +201,7 @@ footer {
   grid-row: 1/2;
   text-align: center;
   position: relative;
-/*   margin: 30px; */
+  margin: 30px;
 }
 
 .portfolio-img {
@@ -237,6 +237,10 @@ footer {
   grid-template-columns: 75px 1fr;
   align-items: center;
   grid-gap: 10px;
+}
+
+.display {
+  color: blue;
 }
 
 /* ---------------------------------------------------------------
@@ -325,7 +329,6 @@ footer {
   grid-row: 8/9;
   line-height: 1.6;
   padding-right: 80px;
-  margin-bottom: 50px;
 }
 
 /* ---------------------------------------------------------------
@@ -341,6 +344,7 @@ footer {
   grid-column: 2/3;
   grid-row: 9/10;
   font-size: 1.5em;
+  margin-bottom: 50px;
 }
 
 /* ---------------------------------------------------------------
