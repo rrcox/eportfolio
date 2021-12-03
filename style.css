@@ -322,11 +322,6 @@ footer {
   
 }
 
-.call-to-action-icon {
-  position: absolute;
-  z-index: 2;
-}
-
 .call-to-action-text {
   width: 200px;
   font-size: 2em;
