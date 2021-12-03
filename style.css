@@ -278,6 +278,7 @@ footer {
 .portfolio-item-2-text {
   grid-column: 2/3;
   grid-row: 4/5;
+  line-height: 1.6;
   padding-right: 80px;
 }
 
@@ -299,6 +300,7 @@ footer {
 .portfolio-item-3-text {
   grid-column: 2/3;
   grid-row: 6/7;
+  line-height: 1.6;
   padding-right: 80px;
 }
 
@@ -320,6 +322,7 @@ footer {
 .portfolio-item-4-text {
   grid-column: 2/3;
   grid-row: 8/9;
+  line-height: 1.6;
   padding-right: 80px;
   margin-bottom: 50px;
 }
