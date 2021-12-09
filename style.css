@@ -484,10 +484,6 @@ footer {
   margin-top: -33px;
 }
 
-/* .contact-form > label {
-  grid-column: 1/2;
-  grid-row: auto;
-} */
 .contact-form > input {
   grid-column: 1;
   grid-row: auto;
@@ -497,10 +493,6 @@ footer {
   font-size: 1.2em;
   padding-left: 10px;
 }
-
-/* ::placeholder {
-  padding-left: 10px;
-} */
 
 .contact-form > textarea {
   grid-column: 1;
@@ -531,6 +523,7 @@ footer {
   width: 50%;
   justify-self: center;
   font-size: 1.5em;
+  color: #304C89;
 }
 
 /* ---------------------------------------------------------------
@@ -538,7 +531,7 @@ footer {
 ----------------------------------------------------------------*/
 
 @media screen and (max-width: 1250px) {
-  main {
+  main, main.contact {
     display: block;
   }
 }
