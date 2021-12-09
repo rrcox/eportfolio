@@ -519,11 +519,18 @@ footer {
   width: 50%;
   margin-bottom: -31px;
   border-radius: 5px;
-  border: 1px solid black
+  border: 1px solid gray;
+  background-color: #648DE5;
 }
 
 .bottom-right-bracket {
   text-align: right;  
+}
+
+#feedback {
+  width: 50%;
+  justify-self: center;
+  font-size: 1.5em;
 }
 
 /* ---------------------------------------------------------------
