@@ -480,7 +480,8 @@ footer {
 .contact-form {
   display: grid;
   grid-template-columns: 1fr; 
-  padding: 10px;
+  padding: 0 20px;
+  margin-top: -33px;
 }
 
 /* .contact-form > label {
@@ -494,17 +495,19 @@ footer {
   height: 30px;
   font-family: Raleway, sans-serif;
   font-size: 1.2em;
-}
-
-::placeholder {
   padding-left: 10px;
 }
+
+/* ::placeholder {
+  padding-left: 10px;
+} */
 
 .contact-form > textarea {
   grid-column: 1;
   grid-row: auto;
+  height: 150px;
   margin-bottom: 10px;
-  height: 30px;
+  padding-left: 10px;
   font-family: Raleway, sans-serif;
   font-size: 1.2em;
 }
@@ -517,6 +520,7 @@ footer {
 .bottom-right-bracket {
   text-align: right;  
 }
+
 /* ---------------------------------------------------------------
  Media Queries
 ----------------------------------------------------------------*/
