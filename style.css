@@ -455,7 +455,18 @@ footer {
 .contact-grid {
   display: grid;
   grid-template-columns: 150px 1fr;
+  width: 400;
   margin: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+  font-size: 1.5em;
+}
+
+.contact-info-img {
+  opacity: 0.6;
+  justify-self: center;
 }
 
 
