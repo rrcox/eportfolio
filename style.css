@@ -184,7 +184,7 @@ footer {
 }
 
 .site-plan p {
-  color: red;  
+  color: #304C89;  
 }
 
 .copyright {
@@ -384,6 +384,46 @@ footer {
   transform: translate(-50%, -50%);
   margin-left: 10px;
 }
+
+/* ---------------------------------------------------------------
+ Contact page 
+----------------------------------------------------------------*/
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+/* ---------------------------------------------------------------
+ Contact heading 
+----------------------------------------------------------------*/
+
+.contact-heading {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+  position: relative;
+  margin: 30px;
+}
+
+.contact-img {
+  opacity: 0.4;
+  width: 500px; 
+  height: 488px; 
+  object-fit: cover;
+  object-position: 20% 10%; 
+}
+
+.contact-text {
+  font-size: 5em;
+  color: black;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 /* ---------------------------------------------------------------
  Media Queries
