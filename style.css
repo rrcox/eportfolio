@@ -475,31 +475,22 @@ footer {
 
 .contact-form {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: 100px 1fr; 
   margin-left: 30px;
 }
 
-.name-label {
+.contact-form > label {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: auto;
 }
 
-.name-input {
+.contact-form > input {
   grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-.mail-label {
-  grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: auto;
 }
 
 .bottom-right-bracket {
-  grid-column: 2/3;
-  grid-row: 7/8;
-  justify-self: end;
-  
+  justify-items: end;  
 }
 /* ---------------------------------------------------------------
  Media Queries
