@@ -487,11 +487,26 @@ footer {
   grid-column: 1/2;
   grid-row: auto;
 } */
+.contact-form > input {
+  grid-column: 1;
+  grid-row: auto;
+  margin-bottom: 10px;
+  height: 30px;
+  font-family: Raleway, sans-serif;
+  font-size: 1.2em;
+}
 
-.contact-form > input,
+::placeholder {
+  padding-left: 10px;
+}
+
 .contact-form > textarea {
   grid-column: 1;
   grid-row: auto;
+  margin-bottom: 10px;
+  height: 30px;
+  font-family: Raleway, sans-serif;
+  font-size: 1.2em;
 }
 
 .contact-form > button {
