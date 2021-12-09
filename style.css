@@ -431,12 +431,16 @@ footer {
  Contact description
 ----------------------------------------------------------------*/
 
-.definition-block {
+.contact-description {
   grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-top: 2px solid #212529;
   border-bottom: 2px solid #212529;
   align-self: center;
-  margin: 150px;
+  margin: 50px;
+  font-size: 1.5em;
 }
 
 
