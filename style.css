@@ -404,6 +404,9 @@ footer {
   text-align: center;
   position: relative;
   margin: 30px;
+  width: 500px; 
+  height: 488px; 
+  
 }
 
 .contact-img {
@@ -415,14 +418,26 @@ footer {
 }
 
 .contact-text {
-  font-size: 5em;
+  font-size: 4em;
+  width: 100%;
   color: black;
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* ---------------------------------------------------------------
+ Contact description
+----------------------------------------------------------------*/
+
+.definition-block {
+  grid-column: 2/3;
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+  align-self: center;
+  margin: 150px;
+}
 
 
 /* ---------------------------------------------------------------
