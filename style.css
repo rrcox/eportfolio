@@ -469,7 +469,22 @@ footer {
   justify-self: center;
 }
 
+/* ---------------------------------------------------------------
+ Contact form
+----------------------------------------------------------------*/
 
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  margin: 30px;
+}
+
+.bottom-right-bracket {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-self: end;
+  
+}
 /* ---------------------------------------------------------------
  Media Queries
 ----------------------------------------------------------------*/

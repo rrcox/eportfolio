@@ -60,36 +60,35 @@
         </div>
         
         <!-- Contact Form -->
-        <div class="bracket">
-          <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Ftop-left-bracket.png?v=1637018097722" alt="top left bracket" width="50">
-        </div>  
-        <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-         <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-          </li>
-          <li>
+        <div class="contact-form">          
+          <div class="top-left-bracket">
+            <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Ftop-left-bracket.png?v=1637018097722" alt="top left bracket" width="50">
+          </div>  
+          <div id="feedback"></div>
+          <form action="/my-handling-form-page" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+
             <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_email">
-          </li>
-          <li>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="user_subject">
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Send</button>
-          </li>
-         </ul>
-        </form>
-        <div class="bracket">
-          <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Fbottom-right-bracket.png?v=1637017994609" alt="bottom right bracket" width="50">
-        </div>   
+              <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="user_subject">
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Send</button>
+            </li>
+           </ul>
+          </form>
+          <div class="bottom-right-bracket">
+            <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Fbottom-right-bracket.png?v=1637017994609" alt="bottom right bracket" width="50">
+          </div>   
+        </div>
         <script>
           const feedbackElement = document.getElementById('feedback');
           const formElement = document.forms[0];
