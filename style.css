@@ -512,9 +512,11 @@ footer {
   font-size: 1.2em;
 }
 
-.contact-form > button {
+#button {
   grid-column: 1;
   justify-self: center;
+  height 50px:
+  width: 150px;
 }
 
 .bottom-right-bracket {

@@ -69,13 +69,13 @@
             <input type="email" placeholder="Your Email Address" id="mail" name="user_email">
             <input type="text" placeholder="Subject" id="subject" name="user_subject">
             <textarea id="msg" placeholder="Message" name="user_message"></textarea>
-            <button type="submit">Send</button>
+            <input type="submit" id="button">
           </form>
           <div class="bottom-right-bracket">
             <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Fbottom-right-bracket.png?v=1637017994609" alt="bottom right bracket" width="50">
           </div>   
         </div>
-        <div class="feedback"></div>
+        <div id="feedback"></div>
         <script>
           const feedbackElement = document.getElementById('feedback');
           const formElement = document.forms[0];
