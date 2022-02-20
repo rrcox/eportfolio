@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Synthetic Software Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="content">
-      
       <!-- Header -->
       <header>
-        <nav>        
-          <a class="logo-img" href="index.html"> 
-            <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Flogo.svg?v=1636993051318" alt="logo" width="50">  
+        <nav>
+          <a class="logo-img" href="index.html">
+            <img src="images/logo.svg" alt="logo" width="50" />
           </a>
-          <div class="logo-text-synthetic"><a href="index.html">synthetic</a></div>
-          <div class="logo-text-software"><a href="index.html">Software</a></div>
-          <div class="portfolio-link"><a href="portfolio.html">Portfolio</a></div>
-          <div class="contact-link"><a href="contact.html">Contact Us</a></div>
+          <div class="logo-text-synthetic">
+            <a href="index.html">synthetic</a>
+          </div>
+          <div class="logo-text-software">
+            <a href="index.html">Software</a>
+          </div>
+          <div class="logo-text-division">
+            <a href="index.html"
+              >A Division of Binary Development Corporation</a
+            >
+          </div>
+          <div class="portfolio-link">
+            <a href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="contact-link">
+            <a href="contact.html">Contact Us</a>
+          </div>
         </nav>
       </header>
 
@@ -26,19 +38,23 @@
       <main class="contact">
         <!-- Contact Heading -->
         <div class="contact-heading">
-          <img class="contact-img" src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Fpigeon-small.jpg?v=1636863364814" alt="pigeon background image">
+          <img
+            class="contact-img"
+            src="images/pigeon-small.jpg"
+            alt="pigeon background image"
+          />
           <h1 class="contact-text">Contact Us</h1>
         </div>
-        
+
         <!-- Contact Description -->
         <div class="contact-description">
-          Contact us and let’s get start moving in the direction you want to go. 
-          Synthetic Software can help you get there. We can be reached by phone, 
-          text, email, Facebook, Twitter, carrier pigeon, and smoke signal. 
-          However you contact us, we look forward to hearing your ideas and working 
-          with you to make those ideas a reality.            
-        </div>      
-       
+          Contact us and let’s get start moving in the direction you want to go.
+          Synthetic Software can help you get there. We can be reached by phone,
+          text, email, Facebook, Twitter, carrier pigeon, and smoke signal.
+          However you contact us, we look forward to hearing your ideas and
+          working with you to make those ideas a reality.
+        </div>
+
         <!-- Contact Info -->
         <div class="contact-info">
           <div class="contact-grid">
@@ -51,53 +67,81 @@
             <p class="facebook">Facebook</p>
             <p class="facebook-address">fb.com/SyntheticSoftware</p>
             <p class="twitter">Twitter</p>
-            <p class="twitter-handle">#syntheticSoftware</p>            
+            <p class="twitter-handle">#syntheticSoftware</p>
           </div>
         </div>
-        
+
         <div class="contact-info-img">
-          <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Ftypewriter-small.jpg?v=1636862331436" alt="antique typewriter">
+          <img src="images/typewriter-small.jpg" alt="antique typewriter" />
         </div>
-        
+
         <!-- Contact Form -->
-        <div class="contact-form-block">          
+        <div class="contact-form-block">
           <div class="top-left-bracket">
-            <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Ftop-left-bracket-light.png?v=1639060302804" alt="top left bracket" width="50">
-          </div>  
-          <form class="contact-form" action="/my-handling-form-page" method="post">
-            <input type="text" placeholder="Your Name" id="name" name="user_name">              
-            <input type="email" placeholder="Your Email Address" id="mail" name="user_email">
-            <input type="text" placeholder="Subject" id="subject" name="user_subject">
-            <textarea id="msg" placeholder="Message" name="user_message"></textarea>
-            <input type="submit" id="button">
+            <img
+              src="images/top-left-bracket-light.png"
+              alt="top left bracket"
+              width="50"
+            />
+          </div>
+          <form
+            class="contact-form"
+            action="/my-handling-form-page"
+            method="post"
+          >
+            <input
+              type="text"
+              placeholder="Your Name"
+              id="name"
+              name="user_name"
+            />
+            <input
+              type="email"
+              placeholder="Your Email Address"
+              id="mail"
+              name="user_email"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              id="subject"
+              name="user_subject"
+            />
+            <textarea
+              id="msg"
+              placeholder="Message"
+              name="user_message"
+            ></textarea>
+            <input type="submit" id="button" />
           </form>
           <div class="bottom-right-bracket">
-            <img src="https://cdn.glitch.me/bdcd7bf5-d93c-4dbf-9159-b4a847c91958%2Fbottom-right-bracket-light.png?v=1639060454638" alt="bottom right bracket" width="50">
-          </div>   
+            <img
+              src="images/bottom-right-bracket-light.png"
+              alt="bottom right bracket"
+              width="50"
+            />
+          </div>
         </div>
         <div id="feedback"></div>
         <script>
-          const feedbackElement = document.getElementById('feedback');
+          const feedbackElement = document.getElementById("feedback");
           const formElement = document.forms[0];
-          formElement.addEventListener('submit', function(e) {
-              e.preventDefault();
-              feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-              feedbackElement.style.display = "block";
-              document.body.classList.toggle('moveDown');
+          formElement.addEventListener("submit", function (e) {
+            e.preventDefault();
+            feedbackElement.innerHTML =
+              "Hello " +
+              formElement.user_name.value +
+              "! Thank you for your message. We will get back with you as soon as possible!";
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle("moveDown");
           });
         </script>
       </main>
 
       <!-- Footer -->
       <footer>
-        <p class="copyright">&copy; 2021 Personal Site Project - Rob Cox - Section 12</p>
-        <a class="site-plan" href="https://personal-site-project-rob-cox.glitch.me/site-plan.html" target="_blank"><p>Personal Site Plan</p></a>
-        <div class="social">
-          <a href="https://www.facebook.com" target="_blank"><img src="https://cdn.glitch.com/aa03d9ca-a7ed-4043-9f28-16a2dc6af9bf%2Ffacebook.png?1633302920971" alt="facebook icon"></a>
-          <a href="https://twitter.com" target="_blank"><img src="https://cdn.glitch.com/aa03d9ca-a7ed-4043-9f28-16a2dc6af9bf%2Ftwitter.png?1633302920971" alt="twitter icon"></a>                
-        </div>
+        <p class="copyright">&copy; 2022 Synthetic Software</p>
       </footer>
-      
     </div>
   </body>
 </html>

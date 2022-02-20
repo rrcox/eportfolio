@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
 
 body {
   font-family: Raleway, sans-serif;
-  background-color: #E8E5DA;
+  background-color: #e8e5da;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3em;
 }
 
 /* ---------------------------------------------------------------
- Common Header 
+ Common header 
 ----------------------------------------------------------------*/
 
 header {
@@ -19,18 +19,19 @@ header {
   margin-right: 20px;
   margin-left: 20px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #648DE5;
+  border-bottom: 2px solid #648de5;
 }
 
 nav {
   display: grid;
-  grid-template-columns: 70px 110px 150px 1fr 150px;  
-  align-items: center;  
+  grid-template-columns: 70px 110px 150px 1fr 150px;
+  align-items: center;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none;
-  color: #648DE5;
+  color: #648de5;
 }
 
 .logo-img {
@@ -45,21 +46,74 @@ a:link, a:visited {
   justify-self: end;
 }
 
+.logo-text-synthetic a {
+  color: #304c89;
+}
+
 .logo-text-software {
   grid-column: 3/4;
   font-weight: bold;
   font-size: 1.5em;
 }
 
+.logo-text-software a {
+  color: #424242;
+}
+.logo-text-division {
+  grid-column: 3/6;
+  grid-row: 2/3;
+  font-size: 0.9em;
+  margin-top: -30px;
+  margin-left: -20px;
+}
+.logo-text-division a {
+  color: darkblue;
+  font-style: italic;
+}
+
 .portfolio-link {
   grid-column: 4/5;
+  grid-row: 1/2;
   justify-self: end;
 }
 
 .contact-link {
   grid-column: 5/6;
+  grid-row: 1/2;
   justify-self: center;
   color: #212529;
+}
+
+/* ---------------------------------------------------------------
+ Common footer
+----------------------------------------------------------------*/
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #648de5;
+}
+
+.social {
+  grid-column: 3/4;
+}
+
+.site-plan {
+  justify-self: center;
+}
+
+.site-plan p {
+  color: #304c89;
+}
+
+.copyright {
+  justify-self: start;
 }
 
 /* ---------------------------------------------------------------
@@ -107,28 +161,28 @@ main {
 }
 
 .word {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 4em;
 }
 
 .word-type {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.5em;
   font-style: italic;
-  color: #304C89;
+  color: #304c89;
   margin-left: 10px;
 }
 
-.pronunciation {  
+.pronunciation {
   font-family: Raleway, san-serif;
   font-size: 2em;
-  color: #304C89;
+  color: #304c89;
 }
 
 .definition {
   font-family: Raleway, san-serif;
   font-size: 1.5em;
-  color: #212529;    
+  color: #212529;
 }
 
 /* ---------------------------------------------------------------
@@ -150,44 +204,12 @@ main {
 
 .what-block {
   grid-column: 2/3;
-  grid-row: 2/3;    
+  grid-row: 2/3;
   text-align: center;
 }
 
 .what-img {
   opacity: 0.9;
-}
-
-/* ---------------------------------------------------------------
- Common footer
-----------------------------------------------------------------*/
-
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: end;
-  margin-top: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-top: 15px;
-  border-top: 2px solid #648DE5;
-}
-
-.social {
-  grid-column: 3/4;  
-}
-
-.site-plan {
-  justify-self: center;
-}
-
-.site-plan p {
-  color: #304C89;  
-}
-
-.copyright {
-  justify-self: start;
 }
 
 /* ---------------------------------------------------------------
@@ -197,7 +219,6 @@ footer {
 .portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
 /* ---------------------------------------------------------------
@@ -217,7 +238,7 @@ footer {
   width: 1800px; /* width of container */
   height: 300px; /* height of container */
   object-fit: cover;
-  object-position: 20% 10%; 
+  object-position: 20% 10%;
 }
 
 .portfolio-text {
@@ -248,7 +269,7 @@ footer {
 }
 
 .display {
-  color: #648DE5;
+  color: #648de5;
 }
 
 /* ---------------------------------------------------------------
@@ -270,7 +291,7 @@ footer {
   grid-column: 2/3;
   grid-row: 2/3;
   line-height: 1.6;
-/*   padding-right: 80px; */
+  /*   padding-right: 80px; */
 }
 
 /* ---------------------------------------------------------------
@@ -359,7 +380,7 @@ footer {
 ----------------------------------------------------------------*/
 
 .call-to-action {
-  grid-column: 1/3;  
+  grid-column: 1/3;
   text-align: center;
   position: relative;
   margin: 30px;
@@ -370,8 +391,7 @@ footer {
   width: 500px; /* width of container */
   height: 500px; /* height of container */
   object-fit: cover;
-  object-position: 0% 75%; 
-  
+  object-position: 0% 75%;
 }
 
 .call-to-action-text {
@@ -390,7 +410,7 @@ footer {
 
 .contact {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
 }
 
 /* ---------------------------------------------------------------
@@ -403,17 +423,16 @@ footer {
   text-align: center;
   position: relative;
   margin: 30px;
-  width: 500px; 
-  height: 488px; 
-  
+  width: 500px;
+  height: 488px;
 }
 
 .contact-img {
   opacity: 0.4;
-  width: 500px; 
-  height: 488px; 
+  width: 500px;
+  height: 488px;
   object-fit: cover;
-  object-position: 20% 10%; 
+  object-position: 20% 10%;
 }
 
 .contact-text {
@@ -454,7 +473,7 @@ footer {
 .contact-grid {
   display: grid;
   grid-template-columns: 150px 1fr;
-  width: 70%;
+  width: 80%;
   margin: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -473,12 +492,12 @@ footer {
 ----------------------------------------------------------------*/
 
 .contact-form-block {
-  margin-left: 30px;  
+  margin-left: 30px;
 }
 
 .contact-form {
   display: grid;
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr;
   padding: 0 20px;
   margin-top: -33px;
 }
@@ -511,18 +530,18 @@ footer {
   margin-bottom: -31px;
   border-radius: 5px;
   border: 1px solid gray;
-  background-color: #648DE5;
+  background-color: #648de5;
 }
 
 .bottom-right-bracket {
-  text-align: right;  
+  text-align: right;
 }
 
 #feedback {
   width: 50%;
   justify-self: center;
   font-size: 1.5em;
-  color: #304C89;
+  color: #304c89;
 }
 
 /* ---------------------------------------------------------------
@@ -530,7 +549,8 @@ footer {
 ----------------------------------------------------------------*/
 
 @media screen and (max-width: 1250px) {
-  main, main.contact {
+  main,
+  main.contact {
     display: block;
   }
 }
